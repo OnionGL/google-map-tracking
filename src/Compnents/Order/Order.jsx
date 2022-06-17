@@ -66,7 +66,7 @@ const RightLayout = ({ directionsResponse }) => {
 const libraries = ['places'];
 export default function Order() {
    const { isLoaded } = useJsApiLoader({
-      googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+      googleMapsApiKey: "AIzaSyAGUnyiLdneqWhX0SIvB1uDHEqC3NyxUPU",
       libraries
    })
    const [directionsResponse, setDirectionsResponse] = useState(null)
