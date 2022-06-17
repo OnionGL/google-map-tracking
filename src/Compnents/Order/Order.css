@@ -1,0 +1,23 @@
+.gutter-horizontal {
+   cursor: ew-resize;
+}
+
+.gutter-vertical {
+   cursor: ns-resize;
+}
+
+.wrap {
+   display: flex;
+}
+
+.ant-menu-sub {
+   background: red;
+}
+
+.split {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   overflow-y: auto;
+   overflow-x: auto;
+}
